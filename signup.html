@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN UP</title>
+   <link rel="stylesheet" type="text/css" href="signup.css" ></style>
+      <script src="signup.js"></script>
+   
+</head>
+<body class="bodyy">
+<div class="signup-box" >
+
+<h1>sign up for photography hub</h1>
+<br>
+<br>  
+ <form name="registration" onsubmit="return validate()" action="signup.php" method="post">
+ <p>Enter your name</p>
+   <input type="name" name="uname">
+   <p id="txt1"></p>
+   <br>
+ <p> Enter new mail id</p>  
+   <input type="text" name="email">
+    <p id="txt2"></p>
+   <br>
+  <p> Enter new password</p>
+    <input type="password" name="password">
+    <p id="txt3"></p>
+    <br>
+  <p> Enter your phone number</p>
+    <input type="number" name="phonenumber">
+    <p id="txt4"></p>
+    <br>
+  <p> Enter your DOB</p> 
+   <input type="date" name="dob" id="date">
+   <p id="txt5"></p>
+   <br>
+ 
+  <input type="submit" value="create"  class="button1" >
+  <input type="RESET" value="clear"  class="button1">
+
+
+</form>
+</div>
+</body>
+</html>

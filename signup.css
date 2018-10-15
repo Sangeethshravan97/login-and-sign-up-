@@ -1,0 +1,87 @@
+.bodyy{
+     
+     background: url("pic.jpg");
+	 background-size: cover;
+
+     margin: 0px;
+     padding:0px;
+     font-family: sans-serif;
+    }
+
+ .signup-box{
+
+   width: 520px;
+   height: 825px;
+   background: rgba(0,0,0,0.5);
+   color: #fff;
+   top: 50%;
+   left :50%;
+   position:absolute;
+   transform: translate(-50%,-50%);
+   box-sizing: border-box;
+   align-items: center;
+   padding: 70px 30px;
+ }   
+ .signup-box p{
+
+ 	margin: 0;
+ 	padding: 0;
+ 	font-weight: bold;
+ }
+
+.signup-box input{
+
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.signup-box input[type="password"],input[type="name"],input[type="text"],input[type="number"],input[type="date"]
+{
+
+  text-align: center;
+  color: white;
+	border: none;
+  margin-top: 5px;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px
+}
+
+h1
+{
+	margin: 0;
+	padding: 0 0 2px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.signup-box input[type="reset"],input[type="submit"]
+{
+
+           margin-top: 18px;
+          margin-left:30px;  
+        width: 180px;
+         height: 50px;
+          background-color:#fff;
+          align-self: center;
+       background:black;
+       color: white;
+       text-decoration-color: white;
+      
+
+       
+       
+
+}
+a{
+  text-decoration: none;
+  color: white;
+
+}
+
+#txt1,#txt2,#txt3,#txt4,#txt5
+{
+  color: red;
+  text-align: center;
+}
